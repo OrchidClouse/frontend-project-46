@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "name": "frontend-project-46",
+  "description": "[![Actions Status](https://github.com/OrchidClouse/frontend-project-46/workflows/hexlet-check/badge.svg)](https://github.com/OrchidClouse/frontend-project-46/actions)",
+  "version": "1.0.0",
+  "main": "cli.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrchidClouse/frontend-project-46.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OrchidClouse/frontend-project-46/issues"
+  },
+  "homepage": "https://github.com/OrchidClouse/frontend-project-46#readme"
+}
