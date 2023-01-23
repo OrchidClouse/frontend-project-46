@@ -11,16 +11,17 @@ function parseAndDiff(file1,file2){
     const f2 = sortObj(JSON.parse(fs.readFileSync(file2,'utf-8')))
     console.log('{')
     for(const keys in f1){
-      for(const keys2 in f2){
-        if(keys === keys2 && f1[keys] != f2[keys2]) {
+      if(Object.hasOwn(f2, keys)){  
+        if(f1[keys] === f2[keys]) {
+          console.log(`  ${keys}: ${f1[keys]}`)
+        }else{
           console.log(`- ${keys}: ${f1[keys]}`)
           console.log(`+ ${keys}: ${f2[keys]}`)
+        }
+      }else{
+        console.log(`- ${keys}: ${f1[keys]}`)
       }
-        if(f1[keys] === f2[keys2]) console.log(`${keys}: ${f1[keys]}`)
-        
-      }
-    }   
-    
+    }
     console.log('}')
 }
 export default parseAndDiff
