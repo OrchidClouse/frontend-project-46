@@ -1,5 +1,3 @@
-function isSquare() {
-    return Math.round(Math.random() * 17)
-}
-
-console.log(isSquare())
+const a = 5
+const b = 61
+console.log(a === b)

@@ -1,9 +1,0 @@
-// console.log('{')
-    // for(const keys in f1){
-    //   for(const keys2 in f2){
-    //     // if(keys === keys2 && f1[keys] != f2[keys2]) console.log(`- ${keys}: ${f1[keys]}`)
-    //     // if(f1[keys] === f2[keys2]) console.log(`${keys}: ${f1[keys]}`)
-        
-    //   }
-    //   console.log(typeof(keys))
-    // }
