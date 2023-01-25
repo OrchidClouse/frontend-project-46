@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/OrchidClouse/frontend-project-46#readme",
   "devDependencies": {
-    "eslint": "^8.32.0",
-    "jest": "^29.3.1"
+    "eslint": "^8.32.0"
   }
 }
