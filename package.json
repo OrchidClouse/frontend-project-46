@@ -1,6 +1,6 @@
 {
   "type": "module",
-  "name": "frontend-project-46",
+  "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "second project",
   "main": "src/index.js",
